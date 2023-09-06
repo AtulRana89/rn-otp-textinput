@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { View, TextInput, StyleSheet } from 'react-native';
 
-const CustomOtpInput = ({ pinCount = 4, inputFieldStyle, placeholder = "", placeholderTextColor = "", secureTextEntry = false, keyboardAppearance = "default", keyboardType = "numeric", onCodeFilled }) => {
+const CustomOtpInput = ({ pinCount = 4, inputFieldStyle, placeholder = "", placeholderTextColor = "#fff", secureTextEntry = false, keyboardAppearance = "default", keyboardType = "numeric", onCodeFilled }) => {
     const inputRefs = Array.from({ length: pinCount }, () => useRef(null));
     const [otp, setOtp] = useState(Array(pinCount).fill('')); // Store OTP in state
 
@@ -17,7 +17,7 @@ const CustomOtpInput = ({ pinCount = 4, inputFieldStyle, placeholder = "", place
         setOtp(newOtp);
 
         // Check if all fields are filled
-        if (newOtp.every((value) => value.length === 1)) {
+        if (onCodeFilled && newOtp.every((value) => value.length === 1)) {
             onCodeFilled(newOtp.join('')); // Call the callback with the joined OTP
         }
     };
