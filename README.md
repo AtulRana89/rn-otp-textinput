@@ -1,8 +1,12 @@
-![PaginatableList](https://raw.githubusercontent.com/Twotalltotems/react-native-otp-input/master/assets/otp_banner.jpg)
+![PaginatableList](https://raw.githubusercontent.com/AtulRana89/rn-otp-textinput/main/assets/banner.jpg)
 
 # React Native OTP Input and Verification Code
 
 **rn-otp-textinput** React Native Custom OTP Input is a customizable and easy-to-use OTP input component for React Native applications.
+
+# Working demo  
+<img src="https://raw.githubusercontent.com/AtulRana89/rn-otp-textinput/main/assets/demo-otp.gif" width="300" height="610"/>
+
 
 ## Installation
 
@@ -25,7 +29,7 @@ import OTPInputView from 'rn-otp-textinput'
 ## More Advanced Usage
 
 ```js
-import OTPInputView from '@twotalltotems/react-native-otp-input'
+import OTPInputView from 'rn-otp-textinput'
 
 ...
 
