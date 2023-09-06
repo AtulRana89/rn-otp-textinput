@@ -66,9 +66,9 @@ const styles = StyleSheet.create({
 
 ## Roadmap
 
-### Version 0.1.0 (Current)
+### Version 1.1.0 (Current)
 - [ ] Add basic unit tests
 
-### Version 1.1.0 (Upcoming)
+### Version 2.1.0 (Upcoming)
 - [ ] Feature X: Describe the feature briefly.
 
