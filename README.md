@@ -1,4 +1,4 @@
-<img src="" />
+![PaginatableList](https://raw.githubusercontent.com/Twotalltotems/react-native-otp-input/master/assets/otp_banner.jpg)
 
 # React Native OTP Input and Verification Code
 
