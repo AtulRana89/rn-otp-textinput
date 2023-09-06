@@ -69,6 +69,6 @@ const styles = StyleSheet.create({
 ### Version 3.1.0 (Current)
 - [ ] Add basic unit tests
 
-### Version 4.1.0 (Upcoming)
+### Version 5.1.0 (Upcoming)
 - [ ] Feature X: Describe the feature briefly.
 
