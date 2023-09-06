@@ -1,0 +1,27 @@
+{
+  "name": "rn-otp-textinput",
+  "version": "0.1.0",
+  "description": "A custom OTP input component for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "otp",
+    "input",
+    "authentication",
+    "security",
+    "verification",
+    "ui component",
+    "custom",
+    "mobile development",
+    "phone",
+    "one time code",
+    "one time pin",
+    "one time password",
+    "sms"
+  ],
+  "author": "Atul Rana <atulrana076@gmail.com>",
+  "license": "MIT"
+}
