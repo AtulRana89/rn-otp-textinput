@@ -5,6 +5,10 @@ const CustomOtpInput = ({ pinCount = 4, inputFieldStyle, placeholder = "", place
     const inputRefs = Array.from({ length: pinCount }, () => useRef(null));
     const [otp, setOtp] = useState(Array(pinCount).fill('')); // Store OTP in state
 
+    // Use useEffect to update the OTP state when pinCount changes
+    useEffect(() => {
+        setOtp(Array(pinCount).fill(''));
+    }, [pinCount]);
 
     const handleInputChange = (text, index) => {
         // Move focus to the next input field
