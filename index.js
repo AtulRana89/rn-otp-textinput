@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { View, TextInput, StyleSheet } from 'react-native';
 
 const CustomOtpInput = ({ pinCount = 4, inputFieldStyle, placeholder = "", placeholderTextColor = "#fff", secureTextEntry = false, keyboardAppearance = "default", keyboardType = "numeric", onCodeFilled }) => {
