@@ -89,7 +89,8 @@ class CustomOtpInput extends React.Component {
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
-        justifyContent: 'center',
+        // justifyContent: 'center',
+        justifyContent: 'space-between'
     },
 });
 
